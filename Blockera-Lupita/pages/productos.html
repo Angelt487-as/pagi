@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Productos | Blockera Lupita</title>
+
+  <link rel="icon" href="../assets/img/logo/favicon1.png">
+
+  <link rel="stylesheet" href="../assets/css/variables.css">
+  <link rel="stylesheet" href="../assets/css/global.css">
+  <link rel="stylesheet" href="../assets/css/header.css">
+  <link rel="stylesheet" href="../assets/css/productos.css">
+  <link rel="stylesheet" href="../assets/css/footer.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-container">
+
+      <a href="../index.html" class="logo">
+        <img src="../assets/img/logo/logo.png" alt="Blockera Lupita">
+      </a>
+
+      <button class="menu-toggle">☰</button>
+
+      <nav class="nav">
+        <a href="../index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="productos.html" class="active">Productos</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+
+      <a href="https://wa.me/526571995772" class="btn-whatsapp" target="_blank">
+        WhatsApp
+      </a>
+
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="productos-hero">
+    <div class="hero-overlay">
+      <div class="container hero-content">
+
+        <div class="hero-text">
+          <h1>Nuestros <span>Productos</span></h1>
+          <p>
+            Materiales de calidad para tu construcción.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CATÁLOGO -->
+  <section class="productos-catalogo">
+    <div class="container">
+
+      <h2 class="section-title">Catálogo de Productos</h2>
+      <p class="catalogo-subtitulo">
+        Selecciona las cantidades que necesitas y cotiza al instante por WhatsApp.
+      </p>
+
+      <div class="productos-grid">
+
+        <!-- BLOCK 6 -->
+        <div class="producto-card">
+          <img src="../assets/img/productos/block6.png" alt="Block 6">
+          <h3>Block de 6 pulgadas</h3>
+          <p>Ideal para bardas y muros resistentes.</p>
+          <input type="number" id="block6" min="0" placeholder="Piezas">
+        </div>
+
+        <!-- CEMENTO -->
+        <div class="producto-card">
+          <img src="../assets/img/productos/cemento.png" alt="Cemento">
+          <h3>Cemento</h3>
+          <p>Cemento de alta resistencia.</p>
+          <input type="number" id="cemento" min="0" placeholder="Bultos">
+        </div>
+
+        <!-- VARILLA -->
+        <div class="producto-card">
+          <img src="../assets/img/productos/varilla.png" alt="Varilla">
+          <h3>Varilla</h3>
+          <p>Varilla corrugada para construcción.</p>
+          <input type="number" id="varilla" min="0" placeholder="Piezas">
+        </div>
+
+        <!-- ARENA -->
+        <div class="producto-card">
+          <img src="../assets/img/productos/arena.png" alt="Arena">
+          <h3>Arena</h3>
+          <p>Venta por metro cúbico.</p>
+          <input type="number" id="arena" min="0" placeholder="m³">
+        </div>
+
+        <!-- GRAVA -->
+        <div class="producto-card">
+          <img src="../assets/img/productos/grava.png" alt="Grava">
+          <h3>Grava</h3>
+          <p>Ideal para concreto y firmes.</p>
+          <input type="number" id="grava" min="0" placeholder="m³">
+        </div>
+
+        <!-- POLVILLO -->
+        <div class="producto-card">
+          <img src="../assets/img/productos/polvillo.png" alt="Polvillo">
+          <h3>Polvillo</h3>
+          <p>Excelente para rellenos y nivelación.</p>
+          <input type="number" id="polvillo" min="0" placeholder="m³">
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="productos-cta">
+    <div class="container cta-box">
+
+      <div class="cta-texto">
+        <h2>¿Listo para cotizar?</h2>
+        <p>
+          Revisa tu selección y envíanos tu pedido por WhatsApp.
+        </p>
+      </div>
+
+      <div class="cta-boton">
+        <button onclick="enviarWhatsApp()" class="btn btn-primary">
+          Cotizar todo por WhatsApp
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+
+      <div class="footer-col">
+        <h3>Blockera Lupita</h3>
+        <p>Calidad, resistencia y entrega confiable.</p>
+      </div>
+
+      <div class="footer-col">
+        <h3>Enlaces</h3>
+        <p><a href="../index.html">Inicio</a></p>
+        <p><a href="nosotros.html">Nosotros</a></p>
+        <p><a href="productos.html">Productos</a></p>
+      </div>
+
+      <div class="footer-col">
+        <h3>Contacto</h3>
+        <p>656 136 3222</p>
+        <p>Cd. Juárez, Chihuahua</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © 2024 Blockera Lupita. Todos los derechos reservados.
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/menu-mobile.js"></script>
+
+</body>
+</html>

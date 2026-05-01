@@ -1,0 +1,111 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: var(--fuente-principal);
+  color: var(--color-negro);
+  background-color: var(--color-blanco);
+  line-height: 1.5;
+}
+
+/* IMÁGENES */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* LINKS */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* LISTAS */
+ul {
+  list-style: none;
+}
+
+/* CONTENEDOR GENERAL */
+.container {
+  width: 90%;
+  max-width: var(--ancho-max);
+  margin: 0 auto;
+}
+
+/* TÍTULOS */
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+/* SECCIONES */
+section {
+  padding: 60px 0;
+}
+
+/* TITULOS DE SECCIÓN */
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  color: var(--color-azul-oscuro);
+}
+
+/* BOTONES GENERALES */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: var(--radio);
+  font-weight: 600;
+  transition: var(--transicion);
+  cursor: pointer;
+}
+
+/* BOTÓN PRINCIPAL (NARANJA) */
+.btn-primary {
+  background-color: var(--color-naranja);
+  color: var(--color-blanco);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-naranja-hover);
+}
+
+/* BOTÓN CLARO (WHATSAPP HERO) */
+.btn-light {
+  background-color: var(--color-blanco);
+  color: var(--color-negro);
+  border: 1px solid #ddd;
+}
+
+.btn-light:hover {
+  background-color: var(--color-gris);
+}
+
+/* BOTÓN WHATSAPP HEADER */
+.btn-whatsapp {
+  background-color: var(--color-verde);
+  color: white;
+  padding: 10px 18px;
+  border-radius: var(--radio);
+  font-weight: 600;
+}
+
+/* BOTÓN DE TARJETAS */
+.btn-card {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: var(--color-naranja);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.btn-card:hover {
+  background-color: var(--color-naranja-hover);
+}

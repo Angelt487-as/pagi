@@ -1,0 +1,33 @@
+:root {
+
+  /*  COLORES PRINCIPALES */
+  --color-naranja: #f57c00;
+  --color-naranja-hover: #e66a00;
+
+  --color-azul-oscuro: #0f2a44;
+  --color-azul-claro: #1e3a5f;
+
+  --color-blanco: #ffffff;
+  --color-negro: #111111;
+  --color-gris: #f5f5f5;
+  --color-gris-texto: #666666;
+
+  --color-verde: #25D366; /* WhatsApp */
+
+  /* TIPOGRAFÍA */
+  --fuente-principal: 'Segoe UI', Tahoma, sans-serif;
+
+  /* TAMAÑOS */
+  --ancho-max: 1200px;
+
+  /* BORDES */
+  --radio: 12px;
+
+  /* SOMBRAS */
+  --sombra: 0 8px 20px rgba(0, 0, 0, 0.08);
+  --sombra-hover: 0 12px 30px rgba(0, 0, 0, 0.12);
+
+  /* TRANSICIONES */
+  --transicion: all 0.3s ease;
+
+}

@@ -1,0 +1,38 @@
+.entrega-banner {
+  position: relative;
+  min-height: 350px;
+  background-image: url("../img/banners/entrega.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+/* CAPA OSCURA */
+.entrega-overlay {
+  width: 100%;
+  min-height: 350px;
+  background: rgba(15, 42, 68, 0.75);
+  display: flex;
+  align-items: center;
+}
+
+/* CONTENIDO */
+.entrega-content {
+  text-align: center;
+  color: var(--color-blanco);
+  max-width: 700px;
+}
+
+/* TÍTULO */
+.entrega-content h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+/* TEXTO */
+.entrega-content p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+}
