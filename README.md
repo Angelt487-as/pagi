@@ -1,3 +1,3 @@
 # pagi
 
-Hey, this is the your firts time use github?
+Hey, this is the your first time use github?
